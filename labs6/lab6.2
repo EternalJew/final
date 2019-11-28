@@ -1,0 +1,26 @@
+#include <cstdlib>
+#include <iostream>
+#include <math.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	float x,y,x0,eps;
+	int i;
+	cout<<"x0=";
+	cin>>x0;
+	cout<<"\neps=";
+	cin>>eps;
+	x=x0;
+	y=atan(x)+1;
+	i=1;
+	while(fabs(y-x)>eps)
+	{
+		x=y;
+		y=atan(x)+1;
+		i++;
+	};
+	cout<<"root of the equation is:"<<y<<endl<<"number of iteration:"<<i;
+
+	return 0;
+}

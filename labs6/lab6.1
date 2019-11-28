@@ -1,0 +1,25 @@
+#include <cstdlib>
+#include <iostream>
+#include <math.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	float x,y,yp,eps;
+	int n;
+	cout<<"x=";
+    cin>>x;
+	cout<<"\neps=";
+	cin>>eps;
+	cout<<"\nn=";
+	cin>>n;
+	y=x;
+	yp=(1.0/n)*(x/pow(y,n-1)+(n-1)*y);
+	while(fabs(yp-y)>eps)
+	{
+		y=yp;
+		yp=(1.0/n)*(x/pow(y,n-1)+(n-1)*y);
+	};
+	cout<<"root of value is:"<<yp;
+	return 0;
+}

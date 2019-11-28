@@ -1,0 +1,29 @@
+#include <cstdlib>
+#include <iostream>
+#include <math.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	float x,an,pn,s,eps;
+	int n;
+    int i;
+	cout<<"x=";
+	cin>>x;
+	cout<<"\neps=";
+	cin>>eps;
+	n=(0);
+	an=1;
+	i=1;
+	s=an;
+	while(fabs(an)>eps)
+	{
+		n=n+1;
+		pn=x/n;
+		an=an*pn;
+		s=s+an;
+		i=i+1;
+	};
+	cout<<"exp(x)="<<s<<endl<<"number of iteration:"<<i;
+	return 0;
+}
