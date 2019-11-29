@@ -7,7 +7,8 @@
 
 # HOW TO COMPLAIN C++ CODE
 1.Open text file with a code in Dev C++ or Visual Studio.
-![](https://drive.google.com/file/d/1fCWvxRhGmEuTu0Zed6dPhcV4yk-0auhX/view?usp=sharing)
-
+![](https://i.ibb.co/0Xzyj6j/file.png)
+2.Compile it and run the program.
+![](https://i.ibb.co/VtRtWdr/file1.png)
                    
 
