@@ -1,4 +1,4 @@
-    # BUBNOV OLEKSIY PROGRAMMING LABS 
+#BUBNOV OLEKSIY PROGRAMMING LABS #
 |       LABS6       |       LABS7         |    
 |-------------------|---------------------|
 |    programming    |    one-dimensional  |
