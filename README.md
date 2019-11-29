@@ -4,4 +4,4 @@
 |    programming    |    one-dimensional  |
  iterative cyclic           arrays        
  computing processes                        
-
+к
