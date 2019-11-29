@@ -1,7 +1,6 @@
-#BUBNOV OLEKSIY PROGRAMMING LABS #
+# BUBNOV OLEKSIY PROGRAMMING LABS #
 |       LABS6       |       LABS7         |    
 |-------------------|---------------------|
-|    programming    |    one-dimensional  |
- iterative cyclic           arrays        
- computing processes                        
-к
+|    programming iterative cyclic computing processes    |    one-dimensional arrays   |
+                   
+
